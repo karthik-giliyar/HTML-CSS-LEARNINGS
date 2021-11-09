@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    padding: 6px  20px;
+    background-color: rgba(58, 45, 45, 0.822);
+    position: fixed;
+    top: 0;
+    width: 100%; 
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 8px;
+    border-radius:50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-style:unset;
+    font-weight: bold;
+    
+
+}
+.nav a:hover{
+    background-color: rgb(228, 166, 171);
+    color: rgba(39, 38, 38, 0.822);
+}
+.hero{
+    background-image:url(./images/hero1.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero h1{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-style:unset;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content h1{
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.842);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom:30px;
+}
+
+.content th{
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: #888181d2;
+}
+
+.content table, th, td{
+    padding:5px 0px;
+    text-align: center;
+    margin: 0px 25% 30px 25%;
+    width: 50%;
+    border: 3px solid #000000;
+    border-collapse: collapse;
+}
+
+.content td{
+    font-size:20px;
+    padding: 2px 0px;
+}
+.content tr:nth-child(odd){
+    background-color:  #6dda2f;
+}
+
+.reviews h1{
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.842);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.reviews h4{
+    padding: 10px 2.5%;
+    text-decoration: underline;
+}
+.reviews p{
+    margin-left: 5%;
+}
+.reviews span{
+    font-size:20px;
+}
+
+.contact h1{
+    color: white;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.842);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.footer-box{
+    padding: 5px 5%;
+}
+
+.ff{
+    padding:2% 5%;
+    color: black;
+    font-size:20px;
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+    /* background-color: red; */
+}
+.fff{
+    /* background-color: aqua; */
+    padding:2% 5%;
+    color: black;
+    font-size:20px;
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.f1{
+    display: inline-block;
+}
