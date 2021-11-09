@@ -1,0 +1,112 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(./img/lb3.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.name1, .name2{
+    font-family: "sofia", sans-serif;
+    font-size: 50px;
+    color:#008000;
+    /* text-shadow: 3px 3px 5px #008000; */
+    text-decoration: underline;
+}
+.name1{
+    position: absolute;
+    top: 46%;
+    left: 55%;
+}
+.name2{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+.login-container{
+    width: 350px;
+    padding: 10px 30px;
+    background-color: rgba(0, 0, 0, 0.877);
+    border: 1px solid #008000;
+    border-radius: 10px;
+    top: 50%;
+    left: 50%;
+    translate: translate(-50%,-50%);
+    position: absolute;
+    margin-left: -450px;
+    margin-top: -245px;
+    box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.418);
+}
+.login-container h1:after{
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    width: 23%; /* Change this to whatever width you want. */
+    border-bottom: 6px solid #008000; /* This creates the border. Replace black with whatever color you want. */
+
+}
+.login-container h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.text-box{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 5px 0px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #008000;
+    /* background-color:aquamarine; */
+}
+.text-box input{
+    padding:22px 0px;
+    float:left;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 25px;
+    width: 91%;
+    text-indent: 20px;
+    outline: none;
+    border: none;
+    background: transparent;
+    vertical-align:top;
+}
+.text-box i{
+    color: white;
+    width: 25px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn{
+    width: 30%;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid #008000;
+    padding: 5px;
+    background:none;
+    margin:15px 0 40px 0;
+    cursor: pointer;
+    color: white;
+    border-radius:10px;
+}
+.btn:hover{
+    background-color: #008000;
+    border-color: white;
+    color: black;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.btn a{
+    text-decoration:none;
+    color: white;
+}
+

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(45, 45, 163);
+    position:fixed;
+    z-index: 1;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    font-size: 0;
+}
+
+.logo{
+    width: 12%;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-size:30px;
+    font-weight: bold;
+    font-style: italic;
+    display: inline-block;
+}
+
+.navigation {
+    width: 30%;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 58%;
+}
+
+.menu{
+    height: 50px;
+    position: relative;
+}
+
+.navigation>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    width: 25%;
+    text-align: center;
+    font-size :18px;
+    color: white;
+    transition: .5s;
+}
+
+.navigation>ul>li:hover{
+    background-color:white;
+    color: rgb(45, 45, 163);
+    cursor: pointer;
+}
+
+
+.dropdown{
+    position: absolute;
+    box-shadow: 0 0 5px black;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.dropdown>li{
+    list-style-type: none;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.menu>li:hover .dropdown{
+    height: 150px;
+}
+
+.dropdown>li:hover{
+    color: white;
+    background-color:rgb(45, 45, 163);
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color:gray;
+    position: absolute;
+    margin-top:50px;
+    overflow: hidden;
+
+}
+
+.img-container>img{
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    transition: 20s;
+}
+
+
+.img-container>img:hover{
+    transform: scale(1.5);
+}
+
+.banner-content{
+    width:30%;
+    background-color: rgba(31, 31, 39, 0.589);
+    position: absolute; 
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top:100px;
+    padding: 20px;
+}
+
+.banner-content>h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-content>p{
+    color: aliceblue;
+}
+
+.btn{
+    margin:20px 20px 0 0 ;
+    padding: 10px;
+    font-size:20px;
+    border: none;
+    border-radius: 5px;
+    transition: .7s;
+}
+
+.btn:hover{
+    color:white;
+    background-color:rgb(45, 45, 163);
+    cursor: pointer;
+}
+
+
+
+
